@@ -20,7 +20,7 @@ const perguntas = [
             "Alternativa 2"
         ]
     }
-]; 
+ 
 
 {
     enunciado: "Pergunta 1",
