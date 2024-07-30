@@ -51,16 +51,6 @@ let perguntaAtual;
 function mostraPergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
-}
-
-mostraPergunta(){
-
-let atual = 0;
-let perguntaAtual;
-
-function mostraPerguntas() {
-    perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
 function mostraAlternativas() {
@@ -69,6 +59,6 @@ function mostraAlternativas() {
         botaoAlternativa.textContent = alternativa;
         caixaAlternativas.appendChild(botaoAlternativas);
     }
-}}
+}
 
 mostraPergunta();
