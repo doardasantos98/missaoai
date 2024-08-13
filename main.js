@@ -76,7 +76,7 @@ const perguntas = [
                 afirmacao: "afirmacao"
             }
         ]
-}
+},
 
 function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas){
