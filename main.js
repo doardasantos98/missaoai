@@ -63,31 +63,7 @@ function mostraAlternativas() {
 
 mostraPergunta();
 
-const perguntas = 
-    {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia"
-        alternativas: [
-            {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
-            },
-            {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
-            }
-        ]
-},
 
-function mostraAlternativas()
-    for(const alternativa of perguntaAtual.alternativas){
-            const botaoAlternativas = document.createElement("button");
-            botaoAlternativas.textContent = alternativa.texto;
-            botaoAlternativas.addEventListener("click", function(){
-                atual++;
-                mostraPergunta();
-            })
-            caixaAlternativas.appendChild(botaoAlternativas);
-    }
 
     const perguntas = [
         {
