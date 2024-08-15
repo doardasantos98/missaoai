@@ -63,7 +63,7 @@ function mostraAlternativas() {
 
 mostraPergunta();
 
-const perguntas = [
+const perguntas = 
     {
         enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia"
         alternativas: [
@@ -78,7 +78,7 @@ const perguntas = [
         ]
 },
 
-function mostraAlternativas(){
+function mostraAlternativas()
     for(const alternativa of perguntaAtual.alternativas){
             const botaoAlternativas = document.createElement("button");
             botaoAlternativas.textContent = alternativa.texto;
