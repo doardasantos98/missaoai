@@ -1,13 +1,13 @@
 :root{
-  --cor_de_fundo: #ffff
-  --cor_de_fundo2: #ffff
-}
-
-body{
-  background-color: var(--cor_de_fundo)
-}
-
-
-.teste{
-  background-color: darkorange;
-}
+  --cor_de_fundo: #00aeff;
+  --cor_de_fundo2:  rgb(255, 255, 255);
+  }
+  
+  
+  body{
+  background-color:var(--cor_de_fundo);
+  }
+  
+  .teste{
+      background-color:var(--cor_de_fundo2);
+  }
